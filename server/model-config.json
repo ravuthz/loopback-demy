@@ -39,7 +39,7 @@
     "dataSource": "db",
     "public": true
   },
-  "Lession": {
+  "Lesson": {
     "dataSource": "db",
     "public": true
   }

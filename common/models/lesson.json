@@ -1,5 +1,5 @@
 {
-  "name": "Lession",
+  "name": "Lesson",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

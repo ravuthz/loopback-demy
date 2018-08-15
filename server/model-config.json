@@ -38,5 +38,9 @@
   "Section": {
     "dataSource": "db",
     "public": true
+  },
+  "Lession": {
+    "dataSource": "db",
+    "public": true
   }
 }

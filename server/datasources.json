@@ -5,7 +5,7 @@
     "url": "",
     "database": "loopback-demy",
     "password": "",
-    "name": "mongodb",
+    "name": "db",
     "user": "",
     "connector": "mongodb"
   }

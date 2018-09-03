@@ -40,10 +40,10 @@
           "arg": "myResponse",
           "type": "object",
           "root": false,
-          "description": "this is the response to the say name thing"
+          "description": "This is the response to the say name thing"
         }
       ],
-      "description": "takes in a name and then says it",
+      "description": "Takes in a name and then says it",
       "http": [
         {
           "path": "/say-my-name/:myName",

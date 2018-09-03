@@ -10,8 +10,20 @@ module.exports = function(Member) {
 
   Member.sayMyName = function(myName, callback) {
     var myResponse = 'Your name is ' + myName;
-    // TODO
+    console.log('(sayMyName) remote:', myName);
     callback(null, myResponse);
   };
+
+  Member.beforeRemote('sayMyName', function(context, unused, next) {
+    var args = JSON.stringify(context.args);
+    console.log('(sayMyName) beforeRemote:', args);
+    next();
+  });
+
+  Member.afterRemote('sayMyName', function(context, finalOutput, next) {
+    var args = JSON.stringify(context.args);
+    console.log('(sayMyName) afterRemote:', args);
+    next();
+  });
 
 };

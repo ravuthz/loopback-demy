@@ -21,6 +21,11 @@
       "type": "belongsTo",
       "model": "Lesson",
       "foreignKey": ""
+    },
+    "user": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": ""
     }
   },
   "acls": [],
